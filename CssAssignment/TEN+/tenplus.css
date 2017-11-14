@@ -8,6 +8,16 @@
 	background-color: #434b52; 
 	padding: 0px;	
 	}
+	header{
+	position: fixed;
+	z-index: 1030;
+	width: inherit;
+	}
+	@media screen and (max-width: 767px){
+	.width1{
+		width:-webkit-fill-available;
+	}
+	}
 	#header-1{
 	color:white; 
 	font-size: 18px;
@@ -154,6 +164,7 @@
 	}
 	.side-padding{
 	padding:15px 20px 15px 80px;
+	background-color: #434b52;
 	}
 	.side-padding-1{
 	padding:50px 20px 15px 80px;
@@ -219,7 +230,7 @@
 	.box{
     box-shadow: 0px 0px 50px black;
     padding: 20px;
-    margin :0px 20px 0px 20px;
+    margin :65px 20px 0px 20px;
 	}
 	#left-block{
 	float: left;
